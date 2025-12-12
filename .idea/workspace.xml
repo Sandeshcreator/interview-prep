@@ -46,6 +46,7 @@
   "keyToString": {
     "Application.FibSeries.executor": "Run",
     "Application.GradingSystem.executor": "Run",
+    "Application.PositionArrange.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrintAllPrime.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FibSeries">
+  <component name="RunManager" selected="Application.PositionArrange">
     <configuration name="FibSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loop.FibSeries" />
       <module name="interview-prep" />
@@ -79,6 +80,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ifelse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionArrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PositionArrange" />
+      <module name="interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PositionArrange" />
         <item itemvalue="Application.FibSeries" />
         <item itemvalue="Application.PrintAllPrime" />
         <item itemvalue="Application.Prime" />
@@ -146,7 +161,9 @@
       <workItem from="1765288128990" duration="318000" />
       <workItem from="1765343797578" duration="32000" />
       <workItem from="1765376327559" duration="313000" />
-      <workItem from="1765411779487" duration="2789000" />
+      <workItem from="1765411779487" duration="3595000" />
+      <workItem from="1765430571663" duration="36000" />
+      <workItem from="1765529217961" duration="1286000" />
     </task>
     <servers />
   </component>
